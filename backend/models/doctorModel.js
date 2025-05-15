@@ -12,6 +12,7 @@ const doctorSchema=new mongoose.Schema({
     fees:{type:Number,required:true},
     address:{type:Object,required:true},
     date:{type:Number,required:true},
+    image:{type:String,required:true},
     slots_booked:{type:Object,defalut:{}}
 },{minimize:false})
 
